@@ -1,0 +1,136 @@
+@media (max-width: 1343px) {
+    .credit{
+        flex-direction: column;
+    }
+    .app-content{
+        height: 100%;
+       align-items: center;
+    }
+}
+
+@media (max-width: 1172px) {
+    .valuta{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .header-content{
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width:992px) {
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .card-content p{
+        justify-content: center;
+    }
+    .card img{
+        position: relative;
+        z-index: -1;
+    }
+}
+@media (max-width: 823px) {
+    .header-nav-list{
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.647);
+        position: absolute;
+        left: 0;
+        top: -100%;
+        z-index: 999;
+        gap: 50px;
+        transition: 500ms;
+    }
+    .header-nav-list__link{
+        color: white;
+        font-size: 25px;
+    }
+    .burger{
+        display: block;
+        visibility: visible;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 5%;
+        z-index: 1000;
+    }
+    .burger img{
+        width: 100%;
+    }
+    .burger:hover ~ .header-nav-list{
+        top: 0;
+    }
+    .header-content__img{
+        width: 100%;
+    }
+    .header-content-btns{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .credit-card img{
+        position: absolute;
+        z-index: -1;
+        right: 20px;
+    }
+    .credit-card p{
+        width: 300px;
+    }
+}
+@media (max-width: 670px) {
+    .valuta-content{
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .card img {
+        width: 100%;
+    }
+    .valuta > img {
+        width: 100%;
+    }
+    .app-btns{
+        flex-direction: column;
+        align-items: center;
+    }
+    .credit-card p{
+        width: 200px;
+    }
+    .credit-card{
+        flex-wrap: nowrap;
+   }
+   .app-content-card{
+    flex-wrap: wrap;
+   }
+   .app-content-card h3{
+    font-size: 18px;
+   }
+   .app-content-card:nth-child(2), .app-content-card:nth-child(3){
+    height: 240px;
+   }
+   .app-content-card:nth-child(1) img{
+    width: 100%;
+   }
+}
+@media (max-width: 450px) {
+    .btn{
+        display: block;
+        margin: 20px auto;
+    }
+    .credit-card .btn{
+        margin: 0;
+    }
+    .header-content-btns{
+        padding: 15px 50px;
+    }
+    .header-content__title{
+        font-size: 30px;
+    }
+}
